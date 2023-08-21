@@ -2,13 +2,13 @@ export default {
     template: `
     <div class="home-left" xmlns="http://www.w3.org/1999/html">
         <div class="home-left-top">
-            <img src="./img/1.png" alt="not found" />
+            <img src="./img/1.jpg" alt="not found" />
             <div>
-                <span style="color: white;">Jin Tom</span>
+                <span style="color: white;">金花儿</span>
             </div>
         </div>
         <div class="home-rectangle" >
-            <span style="color: aliceblue">akvhbalebfvlrebvoiber
+            <span style="color: aliceblue">道阻且长，行则将至；行而不辍，未来可期
             </span>
         </div>
         <div class="link-a">

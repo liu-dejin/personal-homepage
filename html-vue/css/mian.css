@@ -16,7 +16,7 @@ a:hover{
 body{
     height: 100vh;
     background-size: cover;
-    background: url('https://api.paugram.com/wallpaper/') no-repeat center fixed;
+    background: url('https://www.dmoe.cc/random.php') no-repeat center fixed;
 }
 .main {
     width: 700px;
@@ -30,7 +30,7 @@ body{
     border: 1px solid #ccc;
     border-radius: 6px;
     background-color: black;
-    opacity: 0.3;
+    opacity: 0.5;
     color: white;
     float: left;
 }
@@ -69,11 +69,14 @@ body{
     width: 400px;
     height: 150px;
     background-color: black;
-    opacity: 0.3;
+    opacity: 0.5;
     font-size: 30px;
     border: 1px solid #ccc;
     border-radius: 6px;
     margin-bottom: 10px;
+}
+.home-rectangle span{
+    padding: 10px 10px 0 10px ;
 }
 .top-rect {
     display: flex;
@@ -86,7 +89,7 @@ body{
     margin-bottom: 20px;
     padding-top: 20px;
     background-color: black;
-    opacity: 0.3;
+    opacity: 0.5;
     color: white;
     border: 1px solid #ccc;
     border-radius: 6px;
