@@ -1,3 +1,3 @@
 personal-homepage
 
-![index](.\md-img\index.png)
+![index](./md-img/index.png)
