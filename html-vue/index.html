@@ -9,11 +9,11 @@
     <script src="lib/vue.global.js"></script>
     <script src="lib/vue-router.global.js"></script>
 
-    <script>
-        const api = axios.create({
-            baseURL: 'http://yy.kfirstsnowlucky.cn'
-        })
-    </script>
+    <!--    <script>-->
+    <!--        const api = axios.create({-->
+    <!--            baseURL: 'https://v1.hitokoto.cn'-->
+    <!--        })-->
+    <!--    </script>-->
     <script>
         WIDGET = {
             "CONFIG": {
@@ -37,7 +37,19 @@
         <router-view></router-view>
     </div>
     <script src="js/app.js" type="module"></script>
+    <script>
 
+        window.onload = function () {
+            document.onkeydown = function (e) {
+                // console.log(e.keyCode)
+                if (e.keyCode === 123) {
+                    alert("你好坏，不给你看")
+                    window.location.replace("https://kis2.cn")
+                }
+            }
+
+        }
+    </script>
 </body>
 
 </html>

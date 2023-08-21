@@ -26,10 +26,11 @@ export default {
         }
     },
     created() {
-        api.post('?c=b&encode=json')
-            .then((res) => {
-                this.yy = res.data
-            })
-
+        axios({
+            url:'https://v1.hitokoto.cn',
+            method:'post'
+        }).then((r)=>{
+            this.yy = r.data
+        })
     }
 }
