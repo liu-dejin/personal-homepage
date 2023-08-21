@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#app{
+    /* width: 1080px; */
+    height: 100vh;
+    /* overflow: hidden; */
+    background-attachment: fixed;
+    background-image: url('https://www.dmoe.cc/random.php');
+}
+.main {
+    width: 700px;
+}
+
+.main-top {
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    background-color: #8a8080;
+    opacity: 0.7;
+    float: left;
+}
+
+.main-top-n {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.ptl {
+    font-size: 20px;
+}
+/* .home-left {} */
+
+.home-left-top {
+    /* width: 100px; */
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.home-left-top>img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.home-left-top>div {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.home-rectangle {
+    width: 500px;
+    height: 150px;
+    background-color: black;
+    opacity: 0.3;
+    font-size: 30px;
+}
+.top-rect {
+    display: flex;
+}
+
+.top-rect-main {
+    width: 350px;
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: #ccc;
+    opacity: 0.7;
+}
